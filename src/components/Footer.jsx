@@ -13,7 +13,7 @@ export default function Footer() {
                     <div className="h-10 w-10 rounded-full overflow-hidden">
                         <img src={logo} alt="Logo" className="w-full" />
                     </div>
-                    <h2 className="text-xl font-extrabold">docTALK</h2>
+                    <h2 className="text-xl font-extrabold">Phudu</h2>
                 </div>
                 <ul
                     tabIndex={0}
@@ -41,7 +41,6 @@ export default function Footer() {
                     >
                         <FaFacebook
                             size={30}
-                            onClick={() => navigate("https://facebook.com")}
                             className="text-blue-600 hover:scale-125 cursor-pointer transition-transform duration-300 ease-in-out"
                         />
                     </a>

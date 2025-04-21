@@ -50,7 +50,7 @@ export default function Header() {
                     <div className="h-10 w-10 rounded-full overflow-hidden">
                         <img src={logo} alt="Logo" className="w-full" />
                     </div>
-                    <h2 className="text-xl font-extrabold">docTALK</h2>
+                    <h2 className="text-xl font-extrabold">Phudu</h2>
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">

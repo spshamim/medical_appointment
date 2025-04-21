@@ -17,7 +17,7 @@ export default function Details() {
             const appointment = { name, education, speciality, fees };
             const isBooked = setItem(appointment);
             if (isBooked) {
-                toast.success("Appointment booked successfully!");
+                toast.success(`Appointment booked successfully with ${name}!`);
                 navigate("/bookings");
             } else {
                 toast.error("Appointment already booked!");

@@ -5,18 +5,18 @@ export default function TitleHandle() {
     const location = useLocation();
 
     const titles = {
-        "/": "Home | docTALK",
-        "/blogs": "Blogs | docTALK",
-        "/bookings": "Bookings | docTALK",
+        "/": "Home",
+        "/blogs": "Blogs",
+        "/bookings": "Bookings",
     };
 
     useEffect(() => {
         if (titles[location.pathname]) {
             document.title = titles[location.pathname];
         } else if (location.pathname.startsWith("/doctor/")) {
-            document.title = "Doctor Details | docTALK";
+            document.title = "Doctor Details";
         } else {
-            document.title = "docTALK";
+            document.title = "Phudu - A Doctor's Appointment Booking System";
         }
     }, [location.pathname]);
 
