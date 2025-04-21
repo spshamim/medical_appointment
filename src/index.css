@@ -1,0 +1,15 @@
+@font-face {
+    src: url("/fonts/PlusJakartaSans-Regular.ttf") format("truetype");
+    font-family: "plus";
+}
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+    --font-plus: "plus", sans-serif;
+}
+
+body {
+    @apply bg-gray-200 font-plus font-semibold;
+}

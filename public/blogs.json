@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "question": "What is useState and how does it work in React?",
+        "answer": "The useState hook in React is used to add state to functional components. It allows components to keep track of data that can change over time, like input values or counters. When useState is called, it returns an array with two items: the current state value and a function to update that value. When the update function is called, React re-renders the component with the new state.",
+        "datatime": "2025-04-20 05:14 AM"
+    },
+    {
+        "id": 2,
+        "question": "What is the purpose of useEffect in React?",
+        "answer": "The useEffect hook in React is used to perform side effects in a component. Side effects are actions like fetching data from an API, updating the page title, or setting up timers and event listeners. useEffect runs after the component renders and can also clean up effects when the component unmounts. It helps keep code organized when working with things outside the React rendering process.",
+        "datatime": "2025-04-20 05:14 AM"
+    },
+    {
+        "id": 3,
+        "question": "What is a custom hook in React and when should you use one?",
+        "answer": "A custom hook in React is a function that allows reuse of logic that involves React hooks like useState, useEffect, and others. Instead of writing the same code in different components, the shared logic can be placed inside a custom hook and used wherever needed. Custom hooks help make code cleaner, easier to manage, and more readable, especially when the same logic is needed in multiple places.",
+        "datatime": "2025-04-20 05:14 AM"
+    },
+    {
+        "id": 4,
+        "question": "Difference between controlled and uncontrolled components? Which one is better?",
+        "answer": "Controlled components are form elements where the value is managed by React state. Every time the user types something, the state updates and reflects the current value. Uncontrolled components, on the other hand, store their data directly in the DOM and are accessed using refs. Controlled components are generally preferred in React because they offer better control, easier validation, and are more predictable when handling user input.",
+        "datatime": "2025-04-20 05:14 AM"
+    },
+    {
+        "id": 5,
+        "question": "Tell us something about useFormStatus()",
+        "answer": "The useFormStatus() hook is commonly used in frameworks like Next.js to track the status of a form submission. It helps by providing information such as whether the form is currently being submitted or not. This is useful when showing a loading spinner, disabling buttons, or giving feedback to the user during the form process. It improves user experience by making the form more interactive and responsive.",
+        "datatime": "2025-04-20 05:14 AM"
+    }
+]
