@@ -6,7 +6,7 @@ import { FaTrashCan } from "react-icons/fa6";
 export default function Banner({ setSearchTerm, searchHandler, searchTerm }) {
     return (
         <div className="max-w-screen-2xl mx-auto px-6 md:px-12 mt-3 md:mt-5">
-            <div className="flex flex-col gap-7 items-center justify-center bg-gray-100 border-2 border-white rounded-3xl px-6 md:px-12 py-6 md:py-12">
+            <div className="bg-gradient-to-b from-gray-100/30 to-white/60 flex flex-col gap-7 items-center justify-center border-3 border-b-1 border-white rounded-3xl px-6 md:px-12 py-6 md:py-12">
                 <h2 className="text-xl md:text-4xl font-extrabold w-full md:w-1/2 text-center">
                     Dependable Care, Backed by Trusted Professionals.
                 </h2>

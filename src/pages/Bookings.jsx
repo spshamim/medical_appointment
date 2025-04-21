@@ -36,7 +36,7 @@ export default function Bookings() {
             ) : (
                 <section className="px-6 md:px-16 lg:px-32 flex flex-col gap-5 my-3 md:my-8">
                     <div className="bg-white rounded-3xl flex justify-center items-center flex-col gap-4 py-6 md:py-10">
-                        <h1 className="text-2xl">
+                        <h1 className="text-2xl text-center">
                             You have not booked any appointment yet!
                         </h1>
                         <p className="text-gray-500 text-sm md:text-base text-center w-full md:w-3/4 mx-auto">

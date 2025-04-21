@@ -83,14 +83,16 @@ export default function Details() {
                             <div className="border-1 border-dashed w-full border-gray-300 my-1"></div>
                             <div className="flex items-center gap-3 w-full">
                                 <h1>Availability</h1>
-                                {availability.map((day, index) => (
-                                    <h2
-                                        key={index}
-                                        className="text-sm text-amber-600 bg-amber-100 border-2 border-amber-600 rounded-4xl px-2 md:px-3 py-1"
-                                    >
-                                        {day}
-                                    </h2>
-                                ))}
+                                <div className="flex gap-2 flex-wrap">
+                                    {availability.map((day, index) => (
+                                        <h2
+                                            key={index}
+                                            className="text-sm text-amber-600 bg-amber-100 border-2 border-amber-600 rounded-4xl px-2 md:px-3 py-1"
+                                        >
+                                            {day}
+                                        </h2>
+                                    ))}
+                                </div>
                             </div>
                             <h2 className="text-sm text-black">
                                 Consultation Fee:{" "}

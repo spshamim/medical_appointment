@@ -30,6 +30,7 @@ export default function Services() {
                                     enableScrollSpy
                                     useEasing={true}
                                 />
+                                {"+"}
                             </h3>
                             <p className="text-gray-500 text-sm">
                                 {service.title}

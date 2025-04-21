@@ -11,7 +11,7 @@ export default function BookingList({ appointments, handleCancelAppointment }) {
                     key={index}
                     className="bg-white rounded-3xl flex flex-col gap-4 p-6"
                 >
-                    <div className="flex flex-col md:flex-row justify-between items-center">
+                    <div className="flex flex-col md:flex-row md:justify-between items-start md:items-center gap-1 md:gap-0">
                         <div className="flex flex-col gap-2">
                             <h1 className="text-xl">{appointment.name}</h1>
                             <h1 className="text-sm text-gray-500">
