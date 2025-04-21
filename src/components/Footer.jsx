@@ -1,10 +1,9 @@
-import React from "react";
-import { Link } from "react-router";
 import logo from "../assets/logo.png";
 import { FaFacebook } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { Link } from "react-router";
 
 export default function Footer() {
     return (
@@ -35,10 +34,47 @@ export default function Footer() {
                 </ul>
                 <div className="h-0.5 bg-gray-300 w-full"></div>
                 <div className="flex gap-6">
-                    <FaFacebook size={30} className="text-blue-600" />
-                    <FaSquareXTwitter size={30} className="text-black" />
-                    <FaYoutube size={30} className="text-red-600" />
-                    <FaGithub size={30} className="text-gray-800" />
+                    <a
+                        href="https://facebook.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FaFacebook
+                            size={30}
+                            onClick={() => navigate("https://facebook.com")}
+                            className="text-blue-600 hover:scale-125 cursor-pointer transition-transform duration-300 ease-in-out"
+                        />
+                    </a>
+                    <a
+                        href="https://x.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FaSquareXTwitter
+                            size={30}
+                            className="text-black hover:scale-125 cursor-pointer transition-transform duration-300 ease-in-out"
+                        />
+                    </a>
+                    <a
+                        href="https://youtube.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FaYoutube
+                            size={30}
+                            className="text-red-600 hover:scale-125 cursor-pointer transition-transform duration-300 ease-in-out"
+                        />
+                    </a>
+                    <a
+                        href="https://github.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <FaGithub
+                            size={30}
+                            className="text-gray-800 hover:scale-125 cursor-pointer transition-transform duration-300 ease-in-out"
+                        />
+                    </a>
                 </div>
             </div>
         </div>
